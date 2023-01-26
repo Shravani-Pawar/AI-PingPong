@@ -1,5 +1,6 @@
 
 console.log("Gotta complete the whole project.LOL");
+console.log("target-Ai game with input as wrist x and Y coordinates");
 var paddle2 =10,paddle1=10;
 
 var paddle1X = 10,paddle1Height = 110;
