@@ -1,5 +1,5 @@
 
-
+console.log("Gotta complete the whole project.LOL");
 var paddle2 =10,paddle1=10;
 
 var paddle1X = 10,paddle1Height = 110;
