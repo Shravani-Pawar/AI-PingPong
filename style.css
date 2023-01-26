@@ -1,0 +1,50 @@
+body
+{
+    background-image:url('logo.PNG');
+    background-size:9000px;
+    background-position: center;
+}
+
+img{
+   
+   width: 400px;
+   padding-top: 200px;
+}
+
+#op
+{
+
+    border-width: 30px;
+    border-color:white;
+    color: white;
+    font-size: 30px;
+    width: 600px;
+}
+#kl
+{
+    width: 100px;
+    text-decoration: wavy;
+    font-size: 24px;
+}
+
+h3{
+padding-top: 40px;
+letter-spacing: 28px;
+font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+    background-color: wheat;
+    color: black;
+    width: 100%;
+}
+
+#canvas
+{
+    border-color: white;
+    border-width: 3px;
+}
+h4{
+    color: white;
+}
