@@ -1,0 +1,57 @@
+body
+{
+    background-image:url('logo.PNG');
+    background-size:20000px;
+    background-position: center;
+}
+
+img{
+   
+   width: 400px;
+   padding-top: 200px;
+}
+
+#op
+{
+
+    border-width: 30px;
+    border-color:white;
+    color: white;
+    font-size: 30px;
+    width: 600px;
+}
+#kl
+{
+    width: 120px;
+    text-decoration: wavy;
+    font-size: 24px;
+}
+
+h3{
+padding-top: 40px;
+letter-spacing: 25px;
+font-size: 30px;
+text-shadow:9pt;
+}
+
+p{
+    font-size: 18px;
+    background-color: wheat;
+    color: black;
+    width: 100%;
+    font-weight: bolder;
+}
+
+#webc
+{
+    border-color: white;
+    border-width: 3px;
+}
+h4{
+    color: white;
+}
+
+#preview
+{
+    padding-top: 20px;
+}
