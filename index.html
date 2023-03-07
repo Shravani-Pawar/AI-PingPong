@@ -1,0 +1,73 @@
+<!--created by shravani pawar-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body>
+        
+        <center>
+        
+           <img src="images.png">
+           <button class="btn instruction" data-toggle="modal" data-target="#myModal" >Instructions</button>
+           
+            
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+          
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Instructions</h4>
+                </div>
+                <div class="modal-body">
+                  <ol>
+                      <li>First , keep your Laptop/Computer screen straight</li>
+                      <img src="Step-1.png" class="img-responsive" height="100" width="200">
+                      <li>Move yourself approximately 3-4 feet away from the Laptop/Computer</li>
+                      <img src="Step-2.png" class="img-responsive" height="100" width="200">
+                      <li>Move your Right Wrist in an ascending and descending manner, A red dot should appear on your right wrist .</li>
+                      <img src="Step-3.png" class="img-responsive" height="100" width="200">
+                      <li>Now, press the play button , And again move yourself 3-4 feet away from Laptop/Computer</li>
+                      <img src="Step-4.png" class="img-responsive" height="100" width="200">
+                      <li>The Red Paddel is your paddel , that will move as per the movement of your right wrist .</li>
+                      <img src="Step-5.png" class="img-responsive" height="100" width="200">
+                  </ol>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        <br>
+        
+        <button class="btn btn-success" data-toggle="modal" data-target="Game" >Play</button>
+        <h5 id="status">.</h5>
+        <br>
+        <div id="Game"></div>
+               
+        <button class="btn" onclick="restart()">Restart</button>
+        <br>
+        <br>
+        <h4>Developed By <a href="https://github.com/Shravani-Pawar">Shravani Pawar</a></h4>
+        <br>
+    </center>
+    
+    
+    <script src="main.js"></script>
+    
+    </body>
+</html>
